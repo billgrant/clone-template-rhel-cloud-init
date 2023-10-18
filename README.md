@@ -22,3 +22,5 @@ If the command returns nothing, then you will have to install cloud-init
 ```
 sudo yum install cloud-init
 ```
+
+This code is a modified version of [clone-template-linux-cloud-init](https://github.com/tenthirtyam/terrafom-examples-vmware/tree/main/vsphere/vsphere-virtual-machine/clone-template-linux-cloud-init) originally written by [tenthirtyam](https://github.com/tenthirtyam).
