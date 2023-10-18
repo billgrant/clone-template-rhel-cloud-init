@@ -1,0 +1,29 @@
+##################################################################################
+# VARIABLES
+##################################################################################
+
+# Provider Settings
+
+vsphere_server   = "10.10.0.10"
+vsphere_insecure = true
+
+# vSphere Settings
+
+vsphere_datacenter = "Datacenter"
+vsphere_cluster    = "cluster"
+vsphere_datastore  = "vsanDatastore"
+vsphere_folder     = "workloads"
+vsphere_network    = "vlan10"
+vsphere_template   = "centos-8"
+
+# Virtual Machines Settings
+
+vm_name                    = "cloud-init"
+vm_cpus                    = 2
+vm_memory                  = 4096
+vm_firmware                = "efi"
+vm_efi_secure_boot_enabled = true
+
+# Cloud-Init Settings
+
+ssh_public_key = "<Public Key>"

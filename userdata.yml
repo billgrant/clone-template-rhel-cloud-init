@@ -1,0 +1,12 @@
+#cloud-config
+
+users:
+  - default
+  - name: centos
+    primary_group: centos
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: sudo, wheel
+    ssh_import_id: None
+    lock_passwd: true
+    ssh_authorized_keys:
+    - ${ssh_public_key}
